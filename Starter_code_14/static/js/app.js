@@ -57,12 +57,14 @@ function buildCharts(sample) {
     // Render the Bubble Chart
     let bubble_layout = {
       title: 'Bacteria Cultures per Sample',
+      
       xaxis: {
         title: 'Categories'
         },
       yaxis: {
         title: 'Values'
         }
+     
       };
 
     
