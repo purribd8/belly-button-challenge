@@ -56,8 +56,16 @@ function buildCharts(sample) {
 
     // Render the Bubble Chart
     let bubble_layout = {
-      title: 'Bacteria Cultures per Sample'
-    };
+      title: 'Bacteria Cultures per Sample',
+      xaxis: {
+        title: 'Categories'
+        },
+      yaxis: {
+        title: 'Values'
+        }
+      };
+
+    
 
     Plotly.newPlot('bubble', bubble_traces, bubble_layout);
 
