@@ -59,10 +59,10 @@ function buildCharts(sample) {
       title: 'Bacteria Cultures per Sample',
       
       xaxis: {
-        title: 'Categories'
+        title: 'OTU ID'
         },
       yaxis: {
-        title: 'Values'
+        title: 'Number of Bacteria'
         }
      
       };
@@ -97,6 +97,11 @@ function buildCharts(sample) {
      // Apply a title to the layout
     let layout = {
       title: "Top 10 Bacteria Cultures Found"
+      
+      xaxis: {
+        title: 'Number of Bacteria'
+        },
+      
     };
 
     // Render the plot to the div tag with id "plot"
