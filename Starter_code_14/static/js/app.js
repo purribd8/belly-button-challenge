@@ -63,7 +63,7 @@ function buildCharts(sample) {
         },
       yaxis: {
         title: 'Number of Bacteria'
-        }
+        },
      
       };
 
@@ -96,7 +96,7 @@ function buildCharts(sample) {
 
      // Apply a title to the layout
     let layout = {
-      title: "Top 10 Bacteria Cultures Found"
+      title: "Top 10 Bacteria Cultures Found",
       
       xaxis: {
         title: 'Number of Bacteria'
