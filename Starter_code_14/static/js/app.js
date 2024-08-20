@@ -47,7 +47,7 @@ function buildCharts(sample) {
       marker: {
         color: otu_ids,
         size: sample_values,
-        colorscale: "Electric"
+        colorscale: "YlGnBu"
       },
       text: otu_labels
       };
@@ -83,7 +83,7 @@ function buildCharts(sample) {
       y: bar_y.slice(0, 10).reverse(),
       type: 'bar',
       marker: {
-        colorscale: "Electric",
+        colorscale: "YlGnBu",
         color: sample_values.slice(0, 10).reverse()
       },
       text: otu_labels.slice(0, 10).reverse(),
